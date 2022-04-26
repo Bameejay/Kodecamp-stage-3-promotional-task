@@ -15,11 +15,13 @@ body {
 .first-container {
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero-section {
-    width: 80%;
-    margin: 80px auto;
+    width: 100%;
+    margin: 60px auto;
     display: flex;
     justify-content: space-between;
     min-height: 50vh;
@@ -30,16 +32,16 @@ body {
 }
 
 .hero-section-a h1 {
-    font-size: 40px;
+    font-size: 28px;
 }
 
 .section-a p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
 }
 
 .section-b h3 {
-    font-size: 32px;
+    font-size: 24px;
     width: 350px;
 }
 
@@ -53,6 +55,7 @@ body {
 
 .hero-side-section {
     display: flex;
+    justify-content: end;
 }
 
 .circle {
@@ -61,7 +64,8 @@ body {
     background-color: #661CE7;
     border-radius: 50%;
     margin-top: 4px;
-    height: 65px;
+    height: 50px;
+    width: 50px;
     align-items: center;
     justify-content: center;
 }
@@ -74,23 +78,27 @@ body {
 
 .v1 {
     border-left: 4px dotted #FF6433;
-    height: 80px;
+    height: 70px;
     position: absolute;
-    left: 50%;
-    margin-left: 92px;
-    margin-top: 20px;
+    /* left: 40%; */
+    left: 0;
+    right: 0;
+    margin-left: 670px;
+    margin-top: 4px;
 }
 
 .hero-sectionb-p {
-    margin-left: 90px;
-    margin-top: -14px;
+    margin-left: 70px;
+    margin-top: -10px;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 24px;
     opacity: 0.6;
+    font-size: 16px;
 }
 
 .hero-side-section h3 {
     margin-left: 18px;
+    margin-top: 12px;
 }
 
 
@@ -111,7 +119,7 @@ body {
 }
 
 .offer-section h1 {
-    font-size: 64px;
+    font-size: 42px;
 }
 
 .offer-text {
@@ -150,15 +158,16 @@ body {
 }
 
 .last-p p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
+    margin: 12px 2px 30px 4px;
 }
 
 .last-p {
-    width: 80%;
-    margin: -44px 0 0 -30px;
+    margin-left: 580px;
+    margin-top: -60px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 
@@ -228,14 +237,13 @@ body {
 
 .brand-section {
     width: 80%;
-    padding: 44px 0;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-evenly;
 }
 
 .last-section {
-    min-height: 50vh;
+    min-height: 70vh;
 }
 
 .brand-section img {
