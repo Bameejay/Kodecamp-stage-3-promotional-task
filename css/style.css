@@ -9,8 +9,8 @@ body {
 }
 
 
-/*-----------------------------
-    Hero-Section ----------------*/
+/* Hero-Section 
+---------------------------------------------*/
 
 .first-container {
     width: 80%;
@@ -80,7 +80,6 @@ body {
     border-left: 4px dotted #FF6433;
     height: 70px;
     position: absolute;
-    /* left: 40%; */
     left: 0;
     right: 0;
     margin-left: 670px;
@@ -102,8 +101,8 @@ body {
 }
 
 
-/*-----------------------------
-    Offer-Section ----------------*/
+/* Offer-Section 
+-------------------------------------------*/
 
 .offer-section {
     background-color: #F2F2F2;
@@ -171,8 +170,8 @@ body {
 }
 
 
-/*-----------------------------
-    intouch-Section ----------------*/
+/* In touch-Section 
+---------------------------------------*/
 
 .intouch-section {
     min-width: 100vh;
@@ -226,8 +225,8 @@ body {
 }
 
 
-/*-----------------------------
-    Brand-Section ----------------*/
+/* Brand-Section 
+-------------------------------------*/
 
 .brand-heading {
     display: flex;
@@ -261,4 +260,307 @@ body {
 .logoip {
     margin-top: 10px;
     margin-left: 8px;
+}
+
+
+/* Testimonial-Section 
+---------------------------------------*/
+
+.testimonial-container {
+    background-color: #F2F2F2;
+    min-width: 100vh;
+    min-height: 80vh;
+}
+
+.content-testimonial {
+    width: 30%;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.testimonial-firstp {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 34px 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.testimonial-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.content-testimonial h3 {
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+.content-testimonial p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 14px;
+}
+
+.img-p span {
+    opacity: 0.6;
+}
+
+.img-p {
+    display: flex;
+    gap: 10px;
+}
+
+.border-line {
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.hr1 {
+    border: 1px solid #939393;
+    width: 20px;
+}
+
+.hr2 {
+    border: 1px solid #939393;
+    width: 20px;
+}
+
+.hr3 {
+    border: 1px solid #FF6433;
+    width: 20px;
+}
+
+.hr4 {
+    border: 1px solid #939393;
+    width: 20px;
+}
+
+
+/* Faq-Section 
+---------------------------------*/
+
+.testimonial-arrow {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -34px;
+    margin-left: 42px;
+}
+
+.left-arrow img {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.right-arrow {
+    cursor: pointer;
+}
+
+.faq-section {
+    background-color: #E2E6E9;
+    /* font-size: 14px; */
+}
+
+.faq-subsection {
+    width: 100vh;
+    margin: 0 auto;
+}
+
+.faq-heading {
+    font-size: 20px;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.faq-allboxes {
+    display: grid;
+    grid-gap: 14px;
+    padding-bottom: 40px;
+}
+
+.faq-firstbox {
+    background-color: #fff;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+}
+
+.firstbox-pimg {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.first-p {
+    color: #1E1B1B;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.second-p {
+    font-size: 14px;
+    font-weight: 550;
+    opacity: 0.6;
+    text-align: justify;
+}
+
+.faq-secondbox {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.faq-thirdbox {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.faq-forthbox {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.faq-fifthbox {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.faq-section img {
+    cursor: pointer;
+}
+
+
+/* Contact-us Section
+-------------------------------------- */
+
+.contactus-section {
+    background-color: rgb(29, 27, 27, 0.9);
+}
+
+.contactus-subsection {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftside h2 {
+    color: #fff;
+    width: 60%;
+}
+
+.socialmedia-icons {
+    padding-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-icon {
+    cursor: pointer;
+}
+
+.twitter-icon {
+    cursor: pointer;
+}
+
+.instagram-icon {
+    cursor: pointer;
+}
+
+.linkedin-icon {
+    cursor: pointer;
+}
+
+.rightside-p {
+    color: #fff;
+    line-height: 32px;
+}
+
+.p-opacity {
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+
+/* Footer 
+---------------------------*/
+
+.main-footer {
+    background-color: #1E1B1B;
+}
+
+.main-subfooter {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-location {
+    color: #fff;
+}
+
+.section-location ul {
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 12px;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.about-us {
+    cursor: pointer;
+}
+
+.services {
+    cursor: pointer;
+}
+
+.blog {
+    cursor: pointer;
+}
+
+.contact-us {
+    cursor: pointer;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 0.6;
 }
