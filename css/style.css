@@ -12,92 +12,64 @@ body {
 /* Hero-Section 
 ---------------------------------------------*/
 
-.first-container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .hero-section {
-    width: 100%;
-    margin: 60px auto;
+    width: 80%;
+    margin: 50px auto;
+    padding-left: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     min-height: 50vh;
 }
 
 .section-a {
-    width: 350px;
+    width: 55%;
 }
 
-.hero-section-a h1 {
-    font-size: 28px;
+.hero-section-a h2 {
+    width: 70%;
+    font-weight: 800;
+    font-size: 30px;
 }
 
-.section-a p {
+.hero-section-a p {
     font-size: 12px;
-    line-height: 20px;
+    font-weight: 600;
+    text-align: justify;
+    color: #1E1B1B;
+    opacity: 0.6;
+    width: 60%;
 }
 
-.section-b h3 {
-    font-size: 24px;
-    width: 350px;
+.hero-section-a {
+    margin-top: 30px;
 }
 
-.section-b p {
-    width: 290px;
+.second-paragraph {
+    width: 50%;
+    margin-top: 12px;
+    margin-left: -20px;
 }
 
-.section-b {
-    margin-right: 150px;
+.circle-paragraph {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .hero-side-section {
-    display: flex;
-    justify-content: end;
-}
-
-.circle {
-    display: flex;
-    justify-content: start;
-    background-color: #661CE7;
-    border-radius: 50%;
-    margin-top: 4px;
-    height: 50px;
-    width: 50px;
-    align-items: center;
-    justify-content: center;
-}
-
-.circle-content {
-    color: #fff;
-    padding: 20px;
-    font-size: 12px;
-}
-
-.v1 {
-    border-left: 4px dotted #FF6433;
-    height: 70px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: 670px;
-    margin-top: 4px;
+    margin-left: 80px;
 }
 
 .hero-sectionb-p {
-    margin-left: 70px;
-    margin-top: -10px;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 24px;
+    color: #1E1B1B;
     opacity: 0.6;
-    font-size: 16px;
 }
 
-.hero-side-section h3 {
-    margin-left: 18px;
-    margin-top: 12px;
+.line-circle {
+    padding-bottom: 8px;
+    margin-left: 20px;
 }
 
 
@@ -142,31 +114,47 @@ body {
 .box {
     display: inline-block;
     background-color: #fff;
-    width: 30vh;
+    width: 35vh;
     height: 232px;
     padding-top: 50px;
+}
+
+#wheel-repair:target {
+    background-color: #FF6433;
+}
+
+.box:hover {
+    background-color: #FF6433;
+    cursor: pointer;
 }
 
 .box p {
     margin-top: -24px;
     line-height: 44px;
-}
-
-#wheel-repair {
-    background-color: #FF6433;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .last-p p {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    margin: 12px 2px 30px 4px;
+    padding-bottom: 40px;
+    margin-top: -45px;
+}
+
+.last-p img {
+    padding-top: 20px;
+    margin-top: -18px;
 }
 
 .last-p {
-    margin-left: 580px;
-    margin-top: -60px;
+    width: 67%;
+    margin: 0 auto;
+    padding-bottom: 44px;
     display: flex;
-    justify-content: center;
+    gap: 6px;
+    justify-content: end;
+    text-align: center;
 }
 
 
@@ -243,23 +231,6 @@ body {
 
 .last-section {
     min-height: 70vh;
-}
-
-.brand-section img {
-    float: left
-}
-
-.brand-section p {
-    float: right;
-}
-
-.brand-section p {
-    vertical-align: baseline;
-}
-
-.logoip {
-    margin-top: 10px;
-    margin-left: 8px;
 }
 
 
@@ -446,7 +417,21 @@ body {
     padding: 12px;
 }
 
-.faq-section img {
+.square-box {
+    background-color: #FF6433;
+    color: #fff;
+    width: 6%;
+    height: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.square-box2 {
+    background-color: #FF6433;
+    color: #fff;
+    width: 6%;
+    height: 100%;
+    text-align: center;
     cursor: pointer;
 }
 
