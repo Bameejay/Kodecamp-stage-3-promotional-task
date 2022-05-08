@@ -48,6 +48,16 @@ body {
     gap: 12px;
 }
 
+.nav-bar li a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+.nav-bar li a:focus {
+    color: #FF6433;
+}
+
 .vertical-border {
     border: 1px solid #939191;
     height: 20px;
@@ -712,6 +722,16 @@ body {
 
 .services {
     cursor: pointer;
+}
+
+.section-location a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.section-location a:focus {
+    color: #FF6433;
 }
 
 .blog {
