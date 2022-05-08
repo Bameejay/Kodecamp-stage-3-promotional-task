@@ -66,19 +66,31 @@ body {
 }
 
 #first-hero-section {
-    width: 80%;
-    margin: 20px auto;
+    width: 70%;
+    margin: 80px auto;
     display: flex;
     justify-content: space-between;
     gap: 200px;
 }
 
-.left-first-hero-section h1 {
+.left-img-section h1 {
     width: 80%;
     margin-top: 80PX;
 }
 
-#first-hero-section button {
+.text-hero-section {
+    background-color: #1E1B1B;
+    color: #fff;
+    padding: 100px;
+}
+
+.text-hero-section p {
+    font-size: 12px;
+    width: 100%;
+    margin: 14px 0;
+}
+
+.booking-btn {
     background-color: #FF6433;
     color: #fff;
     padding: 8px 16px;
@@ -89,23 +101,12 @@ body {
     font-weight: 600;
 }
 
-.open-days-section p {
-    color: #1E1B1B;
-    font-size: 10px;
-}
-
-.open-days-section {
-    display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    align-items: center;
-}
-
 
 /* Second Page Section
 ----------------------------------------------*/
 
-#second-section-bg {
+
+/* #second-section-bg {
     background-color: #E2E6E9;
 }
 
@@ -186,12 +187,14 @@ body {
     cursor: pointer;
     font-weight: 600;
 }
+ */
 
 
 /* Third Section 
 ---------------------------------------------*/
 
-.hero-section {
+
+/* .hero-section {
     width: 80%;
     margin: 50px auto;
     padding-left: 100px;
@@ -249,91 +252,14 @@ body {
 .line-circle {
     padding-bottom: 8px;
     margin-left: 20px;
-}
+} */
 
 
 /* Offer-Section 
 -------------------------------------------*/
 
-.offer-section {
-    background-color: #F2F2F2;
-    min-width: 100vh;
-    margin: 0 auto;
-    min-height: 100vh;
-}
-
-.offer-section p {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 48px;
-}
-
-.offer-section h1 {
-    font-size: 42px;
-}
-
-.offer-text {
-    width: 50%;
-    margin: 50px auto;
-    text-align: center;
-}
-
-#offer-boxes {
-    width: 70%;
-    margin: 10px auto;
-    display: flex;
-    gap: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.box {
-    display: inline-block;
-    background-color: #fff;
-    width: 35vh;
-    height: 232px;
-    padding-top: 50px;
-}
-
-#wheel-repair:target {
-    background-color: #FF6433;
-}
-
-.box:hover {
-    background-color: #FF6433;
-    cursor: pointer;
-}
-
-.box p {
-    margin-top: -24px;
-    line-height: 44px;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.last-p p {
-    font-size: 12px;
-    font-weight: 600;
-    padding-bottom: 40px;
-    margin-top: -45px;
-}
-
-.last-p img {
-    padding-top: 20px;
-    margin-top: -18px;
-}
-
-.last-p {
-    width: 67%;
-    margin: 0 auto;
-    padding-bottom: 44px;
-    display: flex;
-    gap: 6px;
-    justify-content: end;
-    text-align: center;
+#auto-bg-section {
+    background-color: #F5F5F5;
 }
 
 
@@ -344,7 +270,7 @@ body {
     min-width: 100vh;
     display: flex;
     flex-direction: row;
-    background-color: #F2F2F2;
+    background-color: red;
 }
 
 .rectangle {
