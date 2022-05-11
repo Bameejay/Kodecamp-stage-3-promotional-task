@@ -12,56 +12,39 @@ body {
 /* First-section 
 ---------------------------------------------*/
 
-.first-section {
-    height: 100vh;
-}
-
-#nav-section {
-    width: 80%;
-    margin: 8px auto;
+header {
     display: flex;
-    justify-content: space-between;
-    font-size: 'Manrope';
-}
-
-#nav-section h1 {
-    color: #1E1B1B;
-    margin-right: 500px;
-}
-
-#nav-section .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
-    font-size: 12px;
-}
-
-#nav-section .nav-bar li {
-    list-style: none;
-    font-size: 10px;
-    color: #1E1B1B;
-}
-
-.nav-bar ul {
-    display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 12px;
 }
 
-.nav-bar li a {
+.logo a {
     text-decoration: none;
-    outline: none;
     color: #000;
 }
 
-.nav-bar li a:focus {
-    color: #FF6433;
+.main__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
 }
 
-.vertical-border {
-    border: 1px solid #939191;
-    height: 20px;
-    opacity: 0.6;
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: rgb(255, 100, 51, 0.8);
+    border-radius: 4px;
+    padding: 12px 4px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #1E1B1B;
 }
 
 .road-assistance {
@@ -69,6 +52,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: -12px;
+    gap: 8px;
 }
 
 .road-assistance p {
@@ -76,19 +60,31 @@ body {
 }
 
 #first-hero-section {
-    width: 80%;
-    margin: 20px auto;
+    padding: 50px 10%;
     display: flex;
     justify-content: space-between;
     gap: 200px;
 }
 
-.left-first-hero-section h1 {
+.left-img-section h1 {
     width: 80%;
     margin-top: 80PX;
 }
 
-#first-hero-section button {
+.text-hero-section {
+    background-color: #1E1B1B;
+    color: #fff;
+    padding: 100px;
+}
+
+.text-hero-section p {
+    font-size: 12px;
+    width: 100%;
+    margin: 14px 0;
+    line-height: 20px;
+}
+
+.booking-btn {
     background-color: #FF6433;
     color: #fff;
     padding: 8px 16px;
@@ -99,16 +95,27 @@ body {
     font-weight: 600;
 }
 
-.open-days-section p {
-    color: #1E1B1B;
-    font-size: 10px;
+.booking-btn:hover {
+    background-color: rgb(255, 100, 51, 0.8);
 }
 
-.open-days-section {
-    display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    align-items: center;
+.left-first-hero-section button {
+    background-color: #FF6433;
+    border-style: none;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+}
+
+.left-first-hero-section button:hover {
+    background-color: rgb(255, 100, 51, 0.8);
+}
+
+#first-hero-section h1 {
+    font-size: 50px;
 }
 
 
@@ -120,9 +127,8 @@ body {
 }
 
 #second-section {
-    width: 80%;
-    height: 100vh;
-    margin: 0 auto;
+    padding: 30px 10%;
+    height: 90vh;
     display: flex;
     justify-content: space-between;
 }
@@ -142,17 +148,14 @@ body {
 
 .paragraph-section {
     width: 40%;
-    margin-right: 330px;
-    gap: 24px;
+    margin-right: 380px;
 }
 
 .secondpage-service {
     display: flex;
-    justify-content: space-between;
-}
-
-.services-page {
-    margin-top: 30px;
+    justify-content: flex-start;
+    margin: 30px 0;
+    gap: 10px;
 }
 
 #expert-mechanics {
@@ -178,6 +181,7 @@ body {
     margin: 4px 0;
     font-weight: 600;
     opacity: 0.4;
+    margin: 10px 0;
 }
 
 .holder-text:focus {
@@ -197,17 +201,21 @@ body {
     font-weight: 600;
 }
 
+.secondpage-btn:hover {
+    background-color: rgb(255, 100, 51, 0.8);
+}
+
 
 /* Third Section 
 ---------------------------------------------*/
 
 .hero-section {
-    width: 80%;
-    margin: 50px auto;
-    padding-left: 100px;
+    /* width: 80%; */
+    padding: 40px 10%;
+    /* margin: 10px 0; */
     display: flex;
-    justify-content: end;
-    min-height: 50vh;
+    justify-content: space-between;
+    /* height: 80vh; */
 }
 
 .section-a {
@@ -267,7 +275,7 @@ body {
 
 .offer-section {
     background-color: #F2F2F2;
-    min-width: 100vh;
+    /* min-width: 100vh; */
     margin: 0 auto;
     min-height: 100vh;
 }
@@ -283,25 +291,26 @@ body {
 }
 
 .offer-text {
-    width: 50%;
-    margin: 50px auto;
+    /* width: 50%; */
+    padding: 20px 20%;
+    /* margin: 50px auto; */
     text-align: center;
+    align-items: center;
 }
 
 #offer-boxes {
-    width: 70%;
-    margin: 10px auto;
+    padding: 30px 15%;
+    /* margin: 10px auto; */
     display: flex;
-    gap: 8px;
+    row-gap: 8px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .box {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: #fff;
     width: 35vh;
     height: 232px;
@@ -334,16 +343,16 @@ body {
 .last-p img {
     padding-top: 20px;
     margin-top: -18px;
+    cursor: pointer;
 }
 
 .last-p {
-    width: 67%;
     margin: 0 auto;
     padding-bottom: 44px;
+    padding-right: 15%;
     display: flex;
     gap: 6px;
-    justify-content: end;
-    text-align: center;
+    justify-content: flex-end;
 }
 
 
@@ -383,12 +392,12 @@ body {
 }
 
 .forth-section {
-    min-width: 60%;
-    padding: 30px;
+    /* min-width: 60%; */
+    padding: 30px 15%;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 
 .forth-section h1 {
@@ -531,20 +540,25 @@ body {
 }
 
 .faq-subsection {
-    width: 100vh;
-    margin: 0 auto;
+    /* width: 100vh;
+    margin: 0 auto; */
 }
 
 .faq-heading {
     font-size: 20px;
     text-align: center;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .faq-allboxes {
-    display: grid;
+    /* display: grid;
     grid-gap: 14px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 25%;
 }
 
 .faq-firstbox {
@@ -552,13 +566,13 @@ body {
     font-size: 16px;
     width: 100%;
     height: 100%;
-    padding: 12px;
+    padding: 20px;
 }
 
 .firstbox-pimg {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 12px;
+    padding-bottom: 20px;
 }
 
 .first-p {
@@ -579,7 +593,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 20px;
 }
 
 .faq-thirdbox {
@@ -587,7 +601,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 20px;
 }
 
 .faq-forthbox {
@@ -595,7 +609,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 20px;
 }
 
 .faq-fifthbox {
@@ -603,7 +617,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 20px;
 }
 
 .square-box {
@@ -622,6 +636,14 @@ body {
     height: 100%;
     text-align: center;
     cursor: pointer;
+}
+
+.square-box:hover {
+    background-color: rgb(255, 100, 51, 0.8);
+}
+
+.square-box2:hover {
+    background-color: rgb(255, 100, 51, 0.8);
 }
 
 
@@ -709,7 +731,12 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    column-gap: 12px;
+    column-gap: 30px;
+}
+
+.section-location ul li {
+    margin: 10px 0;
+    align-content: center;
 }
 
 .home {
@@ -743,8 +770,316 @@ body {
 }
 
 .copyright {
+    margin: 10px 0;
     color: #fff;
     font-size: 10px;
     font-weight: 600;
     opacity: 0.6;
+}
+
+.section-location ul li:hover {
+    background-color: rgb(255, 100, 51, 0.8);
+    padding: 4px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+
+/* mobile-responsiveness 
+-------------------------------------*/
+
+@media (max-width:464px) {
+    /* First Section 
+----------------------------------------*/
+    .main__header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #nav-bar ul {
+        margin-top: 10px;
+        display: flex;
+        justify-content: start;
+    }
+    .nav-bar ul li a:hover {
+        background-color: rgb(255, 100, 51, 0.8);
+        border-radius: 4px;
+    }
+    .nav-bar ul li {
+        font-size: 12px;
+    }
+    .road-assistance {
+        display: none;
+    }
+    .left-first-hero-section {
+        margin: -40px 0;
+    }
+    .open-days-section {
+        display: flex;
+        align-items: center;
+        margin: 12px 10%;
+    }
+    .open-days-section p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .open-days-section img {
+        display: none;
+    }
+    .right-first-img-section img {
+        padding: 12px 30%;
+        margin-right: -20px;
+    }
+    #first-hero-section button {
+        margin: 12px 30%;
+    }
+    #first-hero-section h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    #first-hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Second Section 
+-------------------------------------------*/
+    #second-section {
+        padding: 30px 10px;
+        height: 50vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .left-first-hero-section {
+        margin-bottom: -200px;
+    }
+    .left-side-second-heading {
+        font-size: 12px;
+        padding: 0 20%;
+    }
+    .left-side-second-heading h1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .secondpage-service {
+        text-align: center;
+        width: 120%;
+        margin: 0 100px;
+    }
+    .right-side-heading h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .right-side-section {
+        margin-bottom: 150px;
+    }
+    .holder-text {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .secondpage-btn {
+        margin: 0 150px;
+    }
+    .secondpage-service {
+        display: none;
+    }
+    .left-side-second-section {
+        padding: 0 10%;
+        margin: 20px;
+    }
+    /* Third Section 
+--------------------------------------------*/
+    .hero-section {
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-direction: column; */
+        /* max-height: 80vh; */
+        /* padding: 5px 10%; */
+        margin: 24px auto;
+    }
+    .hero-section-a {
+        width: 100%;
+        padding: 80px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin: 4px 0;
+    }
+    .hero-section-a h2 {
+        text-align: center;
+    }
+    .hero-section-a p {
+        text-align: center;
+        word-spacing: 4px;
+    }
+    .section-b {
+        margin-bottom: 100px;
+    }
+    .hero-section-a h2 {
+        font-size: 14px;
+    }
+    /* Testimonial Container 
+    -----------------------------------------*/
+    .testimonial-container {
+        min-width: 50%;
+        min-height: 60vh;
+    }
+    .testimonial-box p {
+        font-size: 10px;
+    }
+    .testimonial-box h3 {
+        font-size: 8px;
+    }
+    /* FAQ Section 
+    ----------------------------------------*/
+    .faq-subsection {
+        padding: 20px 10px;
+    }
+    .second-p {
+        font-size: 10px;
+    }
+    .square-box {
+        width: 20%;
+        height: 50%;
+    }
+    .square-box2 {
+        width: 20%;
+        height: 50%;
+    }
+    /* Offer Section 
+    ---------------------------------------*/
+    .offer-section {
+        background-color: #F2F2F2;
+        min-width: 30vh;
+        margin: 0 auto;
+        min-height: 30%;
+    }
+    .offer-text h1 {
+        font-size: 20px;
+        /* padding: 10px 20%; */
+        text-align: center;
+    }
+    .offer-text {
+        /* width: 100%;
+        margin: 0 20%;
+        align-items: center; */
+        padding: 10px 10%;
+    }
+    .box {
+        width: 40%;
+        margin: 4px auto;
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box p {
+        font-size: 10px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .box img {
+        width: 30%;
+        height: 30%;
+    }
+    .last-p {
+        margin-right: 80px;
+    }
+    .last-p img {
+        cursor: pointer;
+    }
+    /* .Intouch-Section 
+    ---------------------------------------*/
+    .intouch-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .vehicle {
+        width: 40%;
+    }
+    .rectangle {
+        width: 50%;
+        margin-top: -10px;
+    }
+    .tools {
+        width: 50%;
+    }
+    .forth-section p {
+        font-size: 12px;
+    }
+    .main-subfooter h1 {
+        text-align: center;
+    }
+    /* Social Media Icon 
+    ---------------------------------------*/
+    .socialmedia-icons {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+    }
+    /* Footer 
+    ------------------------------------*/
+    .main-subfooter {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-location ul {
+        margin: 12px;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+
+
+/* Tablet Responsiveness 
+---------------------------------------*/
+
+@media (max-width: 965px) {
+    /* Nav Bar    
+-------------------------------------*/
+    /* .vertical-border {
+        display: none;
+    }
+    .road-assistance {
+        display: none;
+    }
+    .first-section {
+        width: 50%;
+    }
+    header {
+        width: 10%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #first-hero-section {
+        width: 60%;
+    }
+    .nav-bar ul {
+        width: 150%;
+        font-size: 20px;
+    }
+    .vertical-line {
+        display: none;
+    } */
+    /* #offer-boxes {
+        padding: 20px 20%;
+        align-items: center;
+    }
+    .last-p {
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .testimonial-box {
+        padding: 20px 20%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
 }
