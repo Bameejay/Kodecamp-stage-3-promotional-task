@@ -300,19 +300,21 @@ header {
 }
 
 #offer-boxes {
-    padding: 30px 15%;
+    padding: 30px 7%;
     display: flex;
     row-gap: 8px;
+    column-gap: 8px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 80vh;
 }
 
 .box {
     background-color: #fff;
-    width: 35vh;
+    /* width: 35vh; */
+    width: 20%;
     height: 232px;
     padding-top: 50px;
 }
